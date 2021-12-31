@@ -6,7 +6,8 @@ public class CalculadoraDeQuadradoMagico {
     public static void main(String[] args) {
 
         Random gerador = new Random();
-        long inicio = LocalTime.now().toNanoOfDay();
+        long inicio =
+                LocalTime.now().toNanoOfDay();
 
         int x1 = gerador.nextInt(9) + 1, x2 = gerador.nextInt(9) + 1, x3 = gerador.nextInt(9) + 1,
             x4 = gerador.nextInt(9) + 1, x5 = gerador.nextInt(9) + 1, x6 = gerador.nextInt(9) + 1,
